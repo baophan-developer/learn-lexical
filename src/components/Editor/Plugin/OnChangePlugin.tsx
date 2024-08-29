@@ -4,7 +4,7 @@ import {useEffect} from "react";
 type MyOnChangePluginProps = {
 	onChange: (value: unknown) => void;
 };
-const MyOnChangePlugin = (props: MyOnChangePluginProps) => {
+const OnChangePlugin = (props: MyOnChangePluginProps) => {
 	const {onChange} = props;
 
 	const [editor] = useLexicalComposerContext();
@@ -18,4 +18,4 @@ const MyOnChangePlugin = (props: MyOnChangePluginProps) => {
 	return null;
 };
 
-export default MyOnChangePlugin;
+export default OnChangePlugin;

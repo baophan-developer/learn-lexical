@@ -6,9 +6,9 @@ import {HistoryPlugin} from "@lexical/react/LexicalHistoryPlugin";
 import {RichTextPlugin} from "@lexical/react/LexicalRichTextPlugin";
 import {useMemo} from "react";
 import styled from "styled-components";
-import MyOnChangePlugin from "./MyOnChangePlugin";
-import ToolbarPlugin from "./ToolbarPlugin";
-import theme from "./theme";
+import ToolbarPlugin from "./Plugin/ToolbarPlugin";
+import MyOnChangePlugin from "./Plugin/OnChangePlugin";
+import theme from "../../utils/theme.editor";
 
 const EditorContainer = styled.div`
 	margin: 20px auto 20px auto;
